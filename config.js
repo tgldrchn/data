@@ -1,3 +1,3 @@
-export const mongo_uri =
+export const MONGO_URI =
   "mongodb+srv://Tuguldur:Mehhh99757057@cluster0.uqtp50r.mongodb.net/?retryWrites=true&w=majority";
-export const port = 7000;
+export const PORT = 7000;

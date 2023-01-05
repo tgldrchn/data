@@ -20,6 +20,10 @@ const UserSchema = new mongoose.Schema({
     maxlength: [50, "heterhii ih bn"],
   },
   image: String,
+  birthday: {
+    type: Date,
+    required: [true],
+  },
 });
 const User = mongoose.model("User", UserSchema);
 UserSchema.path("firstName").validate((firstName) => {
